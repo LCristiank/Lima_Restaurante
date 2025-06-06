@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +7,28 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="bg-violet-400">
-        <img src="./assets/images/logo_restaurant.png" alt="">
-        <h2>Foodeli</h2>
-        <ul>
-            <li>Why Foodeli</li>
-            <li>Services</li>
-            <li>Menu</li>
+    <header class="flex items-center h-[10vh]">
+        <img src="./assets/images/logo.png" alt="" class="pr-40 pl-20 h-10">
+        <ul class="grid grid-cols-5 gap-10 text-[12px]">
+            <li class="text-[#EB0029]"> Why Foodeli? </li>
+            <li class="flex gap-2">
+                Services
+                <img src="./assets/icons/arrow.svg" alt="">
+            </li>
+            <li class="flex gap-2">
+                Menu
+                <img src="./assets/icons/arrow.svg" alt="">
+            </li>
             <li>Contact</li>
         </ul>
+        <img src="./assets/icons/lupa.svg" alt="">
     </header>
-    <main class="bg-red-400 h-screen">
-        <h1>Claim Best Offer on Fast <span>Food</span> & <span>Restautants</span></h1>
-        <p>Our job is to filling your tummy with delicious food and  with fast and free delivery</p>
-        <img src="./assets/images/bg_image.png" alt="imagem de uma refeição">
+    <main class="bg-red-400 h-[90vh] flex flex-col relative justify-center pl-20">
+        <div class="w-[700px] flex flex-col">
+            <h1 class="text-[67px]">Claim Best Offer on Fast <span>Food</span> & <span>Restautants</span></h1>
+            <p>Our job is to filling your tummy with delicious food and  with fast and free delivery</p>
+        </div>
+        <img src="./assets/images/bg_image.png" alt="imagem de uma refeição" class="flex justify-self-end h-400 absolute self-end top-20">
         <div>
             <button>Get Started</button>
             <button>Watch Video</button>
