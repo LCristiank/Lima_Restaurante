@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/font.css">
     <title>Document</title>
 </head>
 <body>
@@ -23,17 +24,70 @@
         </ul>
         <img src="./assets/icons/lupa.svg" alt="">
     </header>
-    <main class="bg-red-400 h-[90vh] flex flex-col relative justify-center pl-20">
-        <div class="w-[700px] flex flex-col">
-            <h1 class="text-[67px]">Claim Best Offer on Fast <span>Food</span> & <span>Restautants</span></h1>
-            <p>Our job is to filling your tummy with delicious food and  with fast and free delivery</p>
+    <main class="h-[90vh] flex flex-col relative p-[100px] pl-20">
+
+        <div class="flex justify-self-end h-400 absolute self-end top-20">
+            <div class="justify-center flex bg-[#F2C94C] absolute top-[-30px] left-[50px] w-[90px] h-[85px] transform rotate-[335deg] rounded-[20px]">
+                <img src="./assets/icons/Vector.svg" class="h-[50px] w-[50px] self-center " alt="">
+            </div>
+            <img src="./assets/icons/fire_icon.svg" class="absolute top-[-20px] right-[200px]" alt="">
+            <img src="./assets/icons/Group 53.svg" class="absolute right-0 h-[200px]" alt="">
+            <img src="./assets/images/bg_image.png" alt="imagem de uma refeição" class="">
+            <div class=" flex absolute bottom-[80px] left-[-80px] border-none bg-white h-[71px] w-[325px] rounded-l-[50px] rounded-r-[50px] shadow-[15px_15px_16px_15px_rgba(0,0,0,0.05)]">
+                <div class="flex align-center items-center mr-14">
+                    <img src="./assets/images/avatar-male.png" alt="" class="h-[47px] m-5">
+                    <p>Richard Watson</p>  
+                </div>
+                <button>
+                    <div  class="flex justify-center  w-[46px] h-[46px] bg-[#EB0029] border-2 border-none rounded-[100%]">
+                        <img src="./assets/icons/phone.svg" class="w-[15px]" alt="">
+                    </div>
+                </button>
+            </div>
+            <div class="flex absolute gap-5 bottom-0 right-0 bg-white w-[292px] h-[131px] p-[15px] rounded-[30px] border-none bg-white rounded-l-[30px] rounded-r-[30px] shadow-[15px_15px_16px_15px_rgba(0,0,0,0.05)]">
+                <img src="./assets/images/Rectangle 1.png" alt="">
+                <div class=" w-[150px]">
+                        <h3 class="font-bold pb-2 pl-2">Italian Pizza</h3>
+                    <div class="flex flex-row justify-center align-center self-center gap-2 ">
+                        <img src="/source/assets/icons/stars.svg" alt="">
+                        <img src="/source/assets/icons/stars.svg" alt="">
+                        <img src="/source/assets/icons/stars.svg" alt="">
+                        <img src="/source/assets/icons/stars.svg" alt="">
+                        <img src="/source/assets/icons/stars.svg" alt="">
+                    </div>
+                    <p class="text-[0.8rem] text-[#EB0029] font-bold pt-4 pl-3">$ <span class="text-black text-[1.3rem] font-bold self-end">7.49</span></p>
+                </div>
+            </div>
         </div>
-        <img src="./assets/images/bg_image.png" alt="imagem de uma refeição" class="flex justify-self-end h-400 absolute self-end top-20">
-        <div>
-            <button>Get Started</button>
-            <button>Watch Video</button>
+        <article class="">
+            <div class="w-[580px] flex flex-col">
+                <h1 class="text-[67px] font-bold">Claim Best Offer on Fast <span class="font-lobster text-[#EB0029]">Food</span> & <span class="font-lobster text-[#EB0029]">Restautants</span></h1>
+                <p class="mt-5 ml-3 mb-10 text-[1rem] w-[380px]">Our job is to filling your tummy with delicious food and  with fast and free delivery</p>
+            </div>
+           
+            <div class="flex gap-10">
+                <button class="w-[186px] h-[64px] bg-[#EB0029] border-2 border-[#EB0029] rounded-l-[50px] rounded-r-[50px] text-white p-5">Get Started</button>
+                <button class="flex items-center gap-5 ">
+                    <div class=" flex justify-center gap-4 w-[46px] h-[46px] bg-[#F2C94C] border-2 border-none rounded-[100%]">
+                        <img src="./assets/icons/play.svg" class="w-[16px]" alt="play"></div>
+                        Watch Video
+                </button>
+            </div>
+        </article>
+        <div class="flex h-[64px] w-[350px] mt-[130px] relative">
+            <img src="./assets/images/person_1.png" class="absolute z-10 left-[10px] " alt="mulher 1">
+            <img src="./assets/images/person_3.png" class="absolute z-20 left-[50px] " alt="mulher 3">
+            <img src="./assets/images/person_2.png" class="absolute z-30 left-[85px] " alt="mulher 2">
+            <div class=" w-[200px] absolute right-[-20px]">
+                <h3 class="font-bold">Our Happy Customer</h3>
+                <div class="flex">
+                    <img src="./assets/icons/stars.svg" class="mr-3" alt="">
+                    <p class="font-bold">4,8 <span class="text-gray-400 text-[13px]">(12.5K Review)</span></p>
+                </div>
+            </div>
         </div>
 
     </main>
+    
 </body>
 </html>

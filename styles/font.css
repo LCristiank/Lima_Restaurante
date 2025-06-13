@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('../assets/fonts/Lobster1.4.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../assets/fonts/Rubik-Italic-VariableFont_wght.ttf') format('trutype');                                       
+} 
+
+.font-lobster {
+    font-family: 'Lobster';
+}
+.font-rubik{
+    font-family: 'Rubik', bold;
+}
