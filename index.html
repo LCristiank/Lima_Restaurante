@@ -8,13 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="flex items-center h-[10vh]">
+    <header class="flex items-center h-[10vh] ">
         <img src="./assets/images/logo.png" alt="" class="pr-40 pl-20 h-10">
-        <ul class="grid grid-cols-5 gap-10 text-[12px]">
-            <li class="text-[#EB0029]"> Why Foodeli? </li>
-            <li class="flex gap-2">
+        <ul class="grid grid-cols-5 gap-10 text-[12px] lg:text-[16px] ">
+            <li class="text-[#EB0029] lg:w-[150px]"> Why Foodeli? </li>
+            <li class="flex gap-2 ">
                 Services
-                <img src="./assets/icons/arrow.svg" alt="">
+                <img src="./assets/icons/arrow.svg" class="lg:text-[12px]" alt="">
             </li>
             <li class="flex gap-2">
                 Menu
@@ -22,11 +22,11 @@
             </li>
             <li>Contact</li>
         </ul>
-        <img src="./assets/icons/lupa.svg" alt="">
+        <img src="./assets/icons/lupa.svg" class="lg:mr-[50px]" alt="">
     </header>
     <main class="h-[90vh] flex flex-col relative p-[100px] pl-20">
 
-        <div class="flex justify-self-end h-400 absolute self-end top-20">
+        <div class="flex justify-self-end h-400 absolute self-end top-20 lg:relative lg:mr-[80px] lg:top-[-50px]">
             <div class="justify-center flex bg-[#F2C94C] absolute top-[-30px] left-[50px] w-[90px] h-[85px] transform rotate-[335deg] rounded-[20px]">
                 <img src="./assets/icons/Vector.svg" class="h-[50px] w-[50px] self-center " alt="">
             </div>
@@ -59,14 +59,14 @@
                 </div>
             </div>
         </div>
-        <article class="">
-            <div class="w-[580px] flex flex-col">
-                <h1 class="text-[67px] font-bold">Claim Best Offer on Fast <span class="font-lobster text-[#EB0029]">Food</span> & <span class="font-lobster text-[#EB0029]">Restautants</span></h1>
-                <p class="mt-5 ml-3 mb-10 text-[1rem] w-[380px]">Our job is to filling your tummy with delicious food and  with fast and free delivery</p>
+        <article class="lg:absolute lg:bottom-[200px]">
+            <div class="w-[580px] lg:w-[540px] flex flex-col lg:bottom-0">
+                <h1 class="text-[67px] lg:text-[3rem] font-bold">Claim Best Offer on Fast <span class="font-lobster text-[#EB0029] text-[4.5rem]">Food</span> & <span class="font-lobster text-[#EB0029] text-[4.5rem]">Restautants</span></h1>
+                <p class="mt-5 ml-3 mb-10 text-[1rem] w-[380px] lg:hidden">Our job is to filling your tummy with delicious food and  with fast and free delivery</p>
             </div>
            
-            <div class="flex gap-10">
-                <button class="w-[186px] h-[64px] bg-[#EB0029] border-2 border-[#EB0029] rounded-l-[50px] rounded-r-[50px] text-white p-5">Get Started</button>
+            <div class=" gap-10 lg:right-[-300px]  lg:absolute lg:top-0  ">
+                <button class="w-[186px] h-[64px] bg-[#EB0029] border-2 border-[#EB0029] rounded-l-[50px] rounded-r-[50px] text-white p-5 lg:mb-[40px]">Get Started</button>
                 <button class="flex items-center gap-5 ">
                     <div class=" flex justify-center gap-4 w-[46px] h-[46px] bg-[#F2C94C] border-2 border-none rounded-[100%]">
                         <img src="./assets/icons/play.svg" class="w-[16px]" alt="play"></div>
@@ -74,7 +74,7 @@
                 </button>
             </div>
         </article>
-        <div class="flex h-[64px] w-[350px] mt-[130px] relative">
+        <div class="flex h-[64px] w-[350px] mt-[130px] relative lg:absolute lg:bottom-[450px] bg">
             <img src="./assets/images/person_1.png" class="absolute z-10 left-[10px] " alt="mulher 1">
             <img src="./assets/images/person_3.png" class="absolute z-20 left-[50px] " alt="mulher 3">
             <img src="./assets/images/person_2.png" class="absolute z-30 left-[85px] " alt="mulher 2">
